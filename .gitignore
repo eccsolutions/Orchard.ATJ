@@ -154,34 +154,23 @@ $RECYCLE.BIN/
 # Orchard Specific
 # =========================
 
-App_Data/
-glob:*.user
-*.patch
-*.hg
-build/
-/buildazure
-/buildtasks
-/artifacts
-*.sln.cache
-src/Orchard.Web/Media/*
-log.xml
-profiling/
-*.orig
-src/Orchard.Web/Modules-temp/*
-src/Backup/*
-src/packages/*
-src/UpgradeLog.*
-*.itrace.csdef
-*.build.csdef
-src/Orchard.Azure/Orchard.Azure.Web/Core/
-src/Orchard.Azure/Orchard.Azure.Web/Modules/
-src/Orchard.Azure/Orchard.Azure.Web/Themes/
-src/Orchard.Azure/Orchard.Azure.CloudService/csx/Debug/*
-src/Orchard.Web/Orchard.Web.Publish.xml
-src/TestResults/*
-src/Orchard.Web/Properties/PublishProfiles
-src/Orchard.Azure/Orchard.Azure.CloudService/Staging/
+#Ignore everything except gitignore
+/*
+!.gitignore
+!src
 
+#Ignore everything under src except Orchard.Web
+src/*
+!src/Orchard.Web
+
+#Ignore everything under src/Orchard.Web except Modules and Themes
+src/Orchard.Web/*
+!src/Orchard.Web/Modules
+!src/Orchard.Web/Themes
+
+#Ignore everything under src/Orchard.Web/Modules except AccessToJustice
+src/Orchard.Web/Modules/*
+!src/Orchard.Web/Modules/AccessToJustice
 
 #enable all /lib artifacts
 !lib/*/*.*
