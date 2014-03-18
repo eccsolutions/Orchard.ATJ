@@ -170,7 +170,7 @@ src/Orchard.Web/*
 
 #Ignore everything under src/Orchard.Web/Modules except AccessToJustice
 src/Orchard.Web/Modules/*
-!src/Orchard.Web/Modules/AccessToJustice
+!src/Orchard.Web/Modules/Baker.AccessToJustice
 
 #enable all /lib artifacts
 !lib/*/*.*

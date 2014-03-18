@@ -1,0 +1,9 @@
+﻿Name: Baker.AccessToJustice
+AntiForgery: enabled
+Author: Baker Donelson
+Website: http://bakerdonelson.com
+Version: 1.0
+OrchardVersion: 1.7
+Description: Baker Access To Justice Project
+Category: Legal
+Dependencies: Orchard.Projections
