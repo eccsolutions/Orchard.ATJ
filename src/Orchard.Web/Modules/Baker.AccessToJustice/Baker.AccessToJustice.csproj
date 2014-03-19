@@ -93,10 +93,23 @@
   <ItemGroup>
     <Compile Include="Drivers\LegalForumPartDriver.cs" />
     <Compile Include="Filters\LegalForumPartFilter.cs" />
+    <Compile Include="Services\IForumService.cs" />
+    <Compile Include="Services\IThreadService.cs" />
+    <Compile Include="Services\IPostService.cs" />
     <Compile Include="Handlers\LegalForumPartHandler.cs" />
+    <Compile Include="Handlers\PostPartHandler.cs" />
+    <Compile Include="Handlers\ThreadPartHandler.cs" />
     <Compile Include="Migrations.cs" />
+    <Compile Include="Models\AttorneyPart.cs" />
+    <Compile Include="Models\AttorneyPartRecord.cs" />
+    <Compile Include="Models\ClientPart.cs" />
+    <Compile Include="Models\ClientPartRecord.cs" />
     <Compile Include="Models\LegalForumPart.cs" />
     <Compile Include="Models\LegalForumPartRecord.cs" />
+    <Compile Include="Models\PostPart.cs" />
+    <Compile Include="Models\PostPartRecord.cs" />
+    <Compile Include="Models\ThreadPart.cs" />
+    <Compile Include="Models\ThreadPartRecord.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Placement.info" />
